@@ -43,3 +43,15 @@
 .pictureMain .picture img:hover{
     transform:scale(1.2)
 }
+.h1-like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.like{
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+}
