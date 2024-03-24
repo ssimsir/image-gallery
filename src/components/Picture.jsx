@@ -12,7 +12,7 @@ export default function Picture() {
             <div className="picture"><img src={item.src.large} alt={item.photographer} /></div>
             <div className="h1-like">
               <h1>{item.photographer}</h1>
-                <PictureCard pictureName={item.src.large}/>
+                <PictureCard/>
               
             </div>
           </div>
