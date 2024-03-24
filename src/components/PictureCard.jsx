@@ -13,7 +13,8 @@ function PictureCard({pictureName}) {
 				{clickLike ? (
 					<i className="fa-solid fa-heart"></i>
 				) : (
-					<i className="fa-regular fa-heart"></i>
+					// <i className="fa-thin fa-heart"></i>
+               <i className="fa-regular fa-heart"></i>
 				)}
 			</div>
 		</div>
